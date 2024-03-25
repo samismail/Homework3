@@ -1,4 +1,4 @@
-package Farm;
+package Exercise1;
 
 public class Chicken extends FarmAnimal{
     private String sound;

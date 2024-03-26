@@ -1,6 +1,6 @@
-package Exercise2;
+package Exercise3;
 
-public class Airplane implements Flight{
+public class Airplane implements Movement{
     private String model;
     private int year;
 
@@ -28,6 +28,16 @@ public class Airplane implements Flight{
     @Override
     public void fly() {
         System.out.println("I'm an airplane that relies on an engine to fly.");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println("I tax on my wheels.");
+    }
+
+    @Override
+    public void jump() {
+        System.out.println("I cannot jump.");
     }
 
     @Override

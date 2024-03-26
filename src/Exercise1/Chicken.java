@@ -15,4 +15,15 @@ public class Chicken extends FarmAnimal{
     public void setSound(String sound) {
         this.sound = sound;
     }
+
+
+    @Override
+    public String feedLoadingSchedule() {
+        return getName() + ": 8am-4pm";
+    }
+
+    @Override
+    public String toString() {
+        return "Chicken " + sound + super.toString();
+    }
 }

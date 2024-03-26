@@ -44,4 +44,18 @@ public class FarmAnimal {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String feedLoadingSchedule(){
+        return "time to feed!";
+    }
+
+    @Override
+    public String toString() {
+        return " [" +
+                "name=" + name +
+                ", gender=" + gender +
+                ", weight=" + weight +
+                ", age=" + age +
+                ']';
+    }
 }

@@ -22,6 +22,6 @@ public class Bird implements Flight{
 
     @Override
     public String toString() {
-        return "Bird [type=" + type + "]: " + fly();
+        return "Bird [type=" + type + "]: ";
     }
 }

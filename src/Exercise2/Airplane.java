@@ -27,11 +27,11 @@ public class Airplane implements Flight{
 
     @Override
     public void fly() {
-        System.out.print("I'm an airplane that relies on an engine to fly.");
+        System.out.println("I'm an airplane that relies on an engine to fly.");
     }
 
     @Override
     public String toString() {
-        return " Airplane [model=" + model + ", year=" + year + "]: " + fly();
+        return " Airplane [model=" + model + ", year=" + year + "]: ";
     }
 }

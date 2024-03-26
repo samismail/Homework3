@@ -1,5 +1,4 @@
 package Exercise1;
-import java.util.ArrayList;
 /*
 Chicken Cock-a-Doodle-doo [name=Albert, gender=male, weight=1.6, age=2]
 Chicken Cluck Cluck [name=Amelia, gender=female, weight=1.8, age=4]

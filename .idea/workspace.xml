@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afe5784e-5a61-4fbb-8938-e711143bf739" name="Changes" comment="initial push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise2/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise2/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/Bird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exercise2/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise2/Flight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711425171255</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial push">
+      <created>1711425505608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711425505608</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

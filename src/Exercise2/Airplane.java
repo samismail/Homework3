@@ -1,6 +1,6 @@
 package Exercise2;
 
-public class Airplane {
+public class Airplane implements Flight{
     private String model;
     private int year;
 
@@ -23,5 +23,15 @@ public class Airplane {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    @Override
+    public void fly() {
+        System.out.print("I'm an airplane that relies on an engine to fly.");
+    }
+
+    @Override
+    public String toString() {
+        return " Airplane [model=" + model + ", year=" + year + "]: " + fly();
     }
 }
